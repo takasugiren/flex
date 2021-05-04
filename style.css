@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: fuchsia;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > div {
+  background-color: lightpink;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+
+
+
+.flex {
+  background-color: #00c7ce;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
